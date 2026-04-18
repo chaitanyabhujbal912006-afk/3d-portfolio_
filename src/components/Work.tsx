@@ -60,12 +60,6 @@ const Work = () => {
     goToSlide(newIndex);
   }, [currentIndex, goToSlide]);
 
-  const goToNextAutomatic = useCallback(() => {
-    const newIndex =
-      currentIndex === projects.length - 1 ? 0 : currentIndex + 1;
-    goToSlide(newIndex);
-  }, [currentIndex, goToSlide]);
-
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">
