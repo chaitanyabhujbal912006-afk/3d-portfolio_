@@ -5,32 +5,32 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "OmniKavach",
+    category: "Multi-Agent AI Healthcare System",
+    tools: "Python, AI Agents, ICU Data Processing, Risk Analysis",
+    image: "/images/omnikavach.png",
+    link: "https://github.com/chaitanyabhujbal912006-afk/Omnikavach",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "EDI Healthcare",
+    category: "Claims & Data Analysis",
+    tools: "Python, EDI Processing, Healthcare Standards",
+    image: "/images/edi.png",
+    link: "https://github.com/chaitanyabhujbal912006-afk/EDI_Healthcare",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    title: "Hostel Management",
+    category: "Management System (PHP)",
+    tools: "PHP, MySQL, Session Management, Dashboard",
+    image: "/images/hostel_php.png",
+    link: "https://github.com/chaitanyabhujbal912006-afk/Hostel-Management-System-php",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "Hostel Python",
+    category: "DBMS Project",
+    tools: "Python, SQLite, Database Management",
+    image: "/images/hostel_py.png",
+    link: "https://github.com/chaitanyabhujbal912006-afk/hostel_python",
   },
 ];
 
@@ -55,6 +55,12 @@ const Work = () => {
   }, [currentIndex, goToSlide]);
 
   const goToNext = useCallback(() => {
+    const newIndex =
+      currentIndex === projects.length - 1 ? 0 : currentIndex + 1;
+    goToSlide(newIndex);
+  }, [currentIndex, goToSlide]);
+
+  const goToNextAutomatic = useCallback(() => {
     const newIndex =
       currentIndex === projects.length - 1 ? 0 : currentIndex + 1;
     goToSlide(newIndex);

@@ -87,20 +87,20 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>HEALTHCARE AI & SYSTEMS</h3>
+              <h4>Intelligent Solutions for ICU & Clinical Data</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                Developing multi-agent AI systems (OmniKavach) to process complex healthcare
+                data streams, providing early risk insights and evidence-backed reasoning.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Expertise</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">Multi-Agent AI</div>
+                <div className="what-tags">Healthcare Data</div>
+                <div className="what-tags">Predictive Insights</div>
+                <div className="what-tags">System Scalability</div>
+                <div className="what-tags">Healthcare Tech</div>
+                <div className="what-tags">Internal Ops</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -124,21 +124,20 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>BACKEND & CLOUD</h3>
+              <h4>Engineered for Scale and Reliability</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                Build robust backend architectures using Flask and Python, leveraging Cloud
+                fundamentals (AWS) to ensure high availability and performance.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Python / Flask</div>
+                <div className="what-tags">Cloud Fundamentals (AWS)</div>
+                <div className="what-tags">API Design</div>
+                <div className="what-tags">System Design</div>
+                <div className="what-tags">Figma (UI/UX)</div>
+                <div className="what-tags">Data Structures</div>
               </div>
               <div className="what-arrow"></div>
             </div>

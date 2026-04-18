@@ -32,7 +32,7 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/chaitanyabhujbal"
+              href="https://github.com/chaitanyabhujbal912006-afk"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
