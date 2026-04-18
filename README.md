@@ -4,7 +4,7 @@ This is my personal 3D portfolio website, built to showcase my work and skills a
 
 Live site: [https://chaitanyabhujbal.netlify.app/](https://chaitanyabhujbal.netlify.app/)
 
-![Portfolio Preview](public/images/preview1.png)
+![Portfolio Preview](public/images/preview1.png?v=1)
 
 ## Features
 
