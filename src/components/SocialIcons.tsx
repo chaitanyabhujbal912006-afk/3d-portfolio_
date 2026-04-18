@@ -79,16 +79,7 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://www.youtube.com/@Leftbraincoder"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaYoutube />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.instagram.com/leftbraincoder/"
+            href="https://www.instagram.com/chaitanya9aa/"
             target="_blank"
             rel="noreferrer"
           >
