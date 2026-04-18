@@ -11,13 +11,13 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/chaitanyabhujbal/"
+                href="https://www.linkedin.com/in/chaitanya-bhujbal-aba168332/"
                 className="contact-social"
                 data-cursor="disable"
                 target="_blank"
                 rel="noreferrer"
               >
-                LinkedIn — chaitanyabhujbal
+                LinkedIn — Chaitanya Bhujbal
               </a>
             </p>
             <h4>Education</h4>
@@ -41,7 +41,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/chaitanyabhujbal/"
+              href="https://www.linkedin.com/in/chaitanya-bhujbal-aba168332/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
